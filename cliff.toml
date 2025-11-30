@@ -1,0 +1,29 @@
+[changelog]
+header = """
+# Changelog
+"""
+
+# Group commits by type
+[[changelog.commit_types]]
+type = "feat"
+section = "Features"
+
+[[changelog.commit_types]]
+type = "fix"
+section = "Bug Fixes"
+
+[[changelog.commit_types]]
+type = "docs"
+section = "Documentation"
+
+[[changelog.commit_types]]
+type = "chore"
+section = "Chores"
+
+[[changelog.commit_types]]
+type = "refactor"
+section = "Refactoring"
+
+[[changelog.commit_types]]
+type = "test"
+section = "Tests"
