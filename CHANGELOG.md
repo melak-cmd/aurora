@@ -1,6 +1,6 @@
 # Changelog
-## [main] - 2025-11-30
+## [main] - 2025-12-01
 
-### 🚀 Features
+### 💼 Other
 
-- Object’s color property
+- *(ci)* Rename Docker image used in CI and release pipeline
