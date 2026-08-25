@@ -1,5 +1,5 @@
 # Use official Node.js LTS image
-FROM node:18-alpine
+FROM node:22-alpine
 
 # Metadata labels (OCI-compliant)
 LABEL org.opencontainers.image.title="gh-actions-npm-cicd-aurora" \
