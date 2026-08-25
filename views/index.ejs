@@ -140,7 +140,7 @@
 
     .data-row {
       padding: 6px 0;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid var(--border);
       display: flex;
       justify-content: space-between;
       font-size: 0.95rem;
@@ -152,11 +152,20 @@
     
     .data-key {
       font-weight: bold;
-      color: #333;
+      color: var(--text-main);
+      margin-right: 8px;
     }
     
     .data-value {
-      color: #555;
+      color: var(--text-muted);
+      text-align: right;
+      word-break: break-word;
+    }
+
+    .load-error {
+      color: #b91c1c;
+      background: #fef2f2;
+      cursor: default;
     }
   </style>
 </head>
